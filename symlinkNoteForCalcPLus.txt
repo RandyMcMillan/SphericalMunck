@@ -1,0 +1,2 @@
+$ ln -s ~/SphericalGeometry/Calculator\ +\ Sets/ ~/Library/Application\ Support/Calculator\ +/Calculator\ +\ Sets
+

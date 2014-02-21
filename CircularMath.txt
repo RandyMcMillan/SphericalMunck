@@ -1,0 +1,9 @@
+RADIUM = 360/(2*π)
+R = RADIAN = 57.29577951
+360 ∙ 4 • 1/2R = SAS = Surface Area of Sphere
+SAS / 4 = AC = Area of a  Circle
+SAS • 1/3R = VS = Volume of a Sphere
+
+
+
+

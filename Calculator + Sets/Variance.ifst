@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>4 biased</key>
+	<string>((1 -n)^2+(1 -n)^2+(1 -n)^2+(1 -n)^2)/(4-1)</string>
+	<key>4 unbiased</key>
+	<string>((1 -n)^2+(1 -n)^2+(1 -n)^2+(1 -n)^2)/(4)</string>
+	<key>5 baised</key>
+	<string>((1 -n)^2+ (1 -n)^2+(1 -n)^2+(1 -n)^2+(1 -n)^2)/(5-1)</string>
+	<key>5 unbiased</key>
+	<string>((1 -n)^2+ (1 -n)^2+(1 -n)^2+(1 -n)^2+(1 -n)^2)/(5)</string>
+	<key>6 biased</key>
+	<string>((1 -n)^2+ (1 -n)^2+(1 -n)^2+(1 -n)^2+(1 -n)^2+(1 -n)^2)/(6-1)</string>
+	<key>6 unbiased</key>
+	<string>((1 -n)^2+ (1 -n)^2+(1 -n)^2+(1 -n)^2+(1 -n)^2+(1 -n)^2)/(6)</string>
+</dict>
+</plist>

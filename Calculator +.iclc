@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AngleMode</key>
+	<string>0</string>
+	<key>BaseMode</key>
+	<string>0</string>
+	<key>BinaryMode</key>
+	<string>0</string>
+	<key>DecDisplayMode</key>
+	<string>0</string>
+	<key>DrawerState</key>
+	<string>1</string>
+	<key>Log</key>
+	<array>
+		<string>StandardDeviation</string>
+		<string>5.72276157</string>
+		<string>POpMEan4</string>
+		<string>6.5</string>
+	</array>
+	<key>Result</key>
+	<string>5.72276157</string>
+	<key>SelectedTab</key>
+	<string>1</string>
+	<key>WindowPositionX</key>
+	<string>699</string>
+	<key>WindowPositionY</key>
+	<string>66</string>
+</dict>
+</plist>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AvogadroConstant</key>
+	<string>6.0221353*(10^23)</string>
+    <key>LightSpeed</key>
+    <string>299792458</string>
+	<key>LoschmidtConstant</key>
+	<string>2.6867775*(10^25)</string>
+	<key>FaradayConstant</key>
+	<string>96485.3415</string>
+	<key>GravityConstant</key>
+	<string>6.673*10^(-11)</string>
+	<key>SolarConstant</key>
+	<string>1.368</string>
+	<key>BoltzmannConstant</key>
+	<string>1.3806503*(10^(-23))</string>
+	<key>ComptonWaveLength</key>
+	<string>2.426310215*(10^(-12))</string>
+	<key>ElectricFieldConstant</key>
+	<string>8.854187817*(10^(-12))</string>
+	<key>ElementarCharge</key>
+	<string>1.602176462*(10^(-19))</string>
+	<key>PlanckQuantum</key>
+	<string>6.62606876*(10^(-34))</string>
+	<key>RydbergConstant</key>
+	<string>10973731.568549</string>
+	<key>GasConstant</key>
+	<string>8.314472</string>
+	<key>WaterTriplePoint</key>
+	<string>273.16</string>
+	<key>StefanBoltzmannConstant</key>
+	<string>5.670400*(10^(-18))</string>
+	<key>SpecificElectronCharge</key>
+	<string>1.758820174*(10^11)</string>
+	<key>RydbergFrequency</key>
+	<string>3.289841960368*(10^15)</string>
+	<key>lg(;;)</key>
+	<string>log(arg(2))/log(arg(1))</string>
+</dict>
+</plist>

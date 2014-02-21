@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>interest(;;;)</key>
+	<string>arg(1)*(1+arg(2)^arg(3)))</string>
+	<key>discount(;;)</key>
+	<string>arg(1)*(1-(arg(2)/100))</string>
+	<key>taxes(;;)</key>
+	<string>arg(1)*1+(arg(2)/100)</string>
+	<key>CPM(;;)</key>
+	<string>(arg(1)/arg(2))*1000)</string>
+	<key>percent(;;)</key>
+	<string>(arg(1)/arg(2))*100)</string>
+</dict>
+</plist>

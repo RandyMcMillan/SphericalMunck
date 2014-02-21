@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MassRelationEarthMoon</key>
+	<string>81.2</string>
+	<key>MassRelationSunEarth</key>
+	<string>332964</string>
+	<key>SunParallax</key>
+	<string>8.794148</string>
+	<key>AE2meters(;)</key>
+	<string>arg(1)*149.6*(10^9)</string>
+	<key>pc2meters(;)</key>
+	<string>arg(1)*30.857*(10^15)</string>
+	<key>ly2meters(;)</key>
+	<string>arg(1)*9.4605*(10^15)</string>
+	<key>AE2ly(;)</key>
+	<string>arg(1)*15.8*(19^(-6))</string>
+	<key>AE2pc(;)</key>
+	<string>arg(1)*4.85*(10^(-6))</string>
+	<key>pc2AE(;)</key>
+	<string>arg(1)*0.206*(10^6)</string>
+	<key>pc2ly(;)</key>
+	<string>arg(1)*3.26</string>
+	<key>ly2AE(;)</key>
+	<string>arg(1)*63239</string>
+	<key>ly2pc(;)</key>
+	<string>arg(1)*0.3066</string>
+	<key>meters2ly(;)</key>
+	<string>arg(1)/ly2meters(1)</string>
+	<key>meters2pc(;)</key>
+	<string>arg(1)/pc2meters(1)</string>
+	<key>meters2AE(;)</key>
+	<string>arg(1)/AE2meters(1)</string>
+</dict>
+</plist>

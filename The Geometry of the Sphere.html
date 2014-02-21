@@ -1,0 +1,174 @@
+<HTML>
+<head><title>The Geometry of the Sphere</title>
+</head>
+
+
+
+<body bgcolor="ffffff">
+<p align = center><img src="icons/earth4.gif" alt="Globe">
+
+<pre>
+
+
+</pre>
+
+<h1 align = center>The Geometry of the Sphere</h1>
+<pre>
+</pre>
+
+<P ALIGN=Center><A HREF="http://math.rice.edu/~polking"> John C.
+Polking</A><br>
+
+<a href="http://www.rice.edu">Rice University </a>
+
+<pre>
+
+
+</pre>
+
+
+
+The material on these pages was the text for part of the Advanced
+Mathematics course in the High School Teachers Program at the <a
+href="http://www2.admin.ias.edu/ma/park.htm">IAS/Park City
+Mathematics Institute</a> at the <a
+href="http://www.ias.edu/">Institute for Advanced Study</a> during
+July of 1996.  <p>
+
+Teachers are requested to make their own contributions to this page.
+These can be in the form of comments or lesson plans that they have
+used based on this material.  Please send email to the author at <A
+HREF="mailto:polking@rice.edu">polking@rice.edu</a> to inquire.  Pages can be kept
+at Rice or on your own server, with a link to this page.<p>
+
+Putting mathematics onto a web page still presents a significant
+challenge.  Much of the effort in making the following pages as nice
+as they are is due to <a href="http://math.rice.edu/~ddonovan">Dennis
+Donovan</a>.  <a href="http://math.rice.edu/~hemphill">Boyd
+Hemphill</a> added two nice appendices.  Susan Boone
+helped construct the Table of Contents.  All of them are
+teachers and members of the <a href="http://math.rice.edu/~pcmi">Rice
+University Site</a> of the <a
+href="http://www.admin.ias.edu/ma/parkcity.htm">IAS/Park City
+Mathematics Institute.</a><p>
+
+<hr size=4>
+<a name="toc"></a>
+<H3 ALIGN=Center>Table of Contents</H3>
+
+<UL>
+  <li> <a href ="#intro">Introduction</a>
+  <LI><A href="sphere.html#basic"> Basic information about spheres</A>
+<UL>
+<LI> <A href = "sphere.html#1">Lines and spheres</A>
+<LI> <a href="sphere.html#2">Planes, spheres, circles, and great 
+circles:</a> 
+     <ul>
+       <li> <a href="sphere.html#3">Exercise: Comparison with plane geometry</a>
+     </ul>
+<LI> <a href="gos2.html#1">Incidence Relations on a Sphere</a>
+<LI> <a href="gos2.html#2">Spherical distance and isometries</a>
+<LI> <a href="gos2.html#3">Lunes</a>
+<LI> <A href="gos2.html#angles">Angles on the sphere</A>
+</UL>
+
+<LI> <A HREF="gos3.html#area">Area on the sphere</A>
+<UL>
+<LI> <a href="gos3.html#1">The area of a lune</a>
+<LI> <a href="gos3.html#2">Spherical triangles</a>
+     <ul>
+       <li><a href="gos3.html#3">Exercise: Experimenting with spherical 
+triangles</a>
+       <li> <a href="gos3.html#3">Exercise: The area of a spherical triangle</a>
+
+     </ul>
+</UL>
+
+<LI> <a href="gos4.html#1">The area of a spherical triangle. 
+Girard's Theorem </a>
+<LI> <a href="gos5.html#1">Consequences of Girard's 
+Theorem</a>
+<UL>
+<LI> <a href="gos5.html#3">Exercise:  Distortion in maps</a>
+<LI> <a href="gos5.html#5">Exercise:  Similarity</a>
+<LI> <a href="gos5.html#7">Exercise:  Congruence theorems</a>
+<LI> <a href="gos5.html#9">Exercise:  Small triangles on large spheres</a>
+<LI> <a href="gos5.html#11">Exercise:  Spherical polygons</a>
+</UL>
+
+<LI> <a href="gos6.html">A Proof of Euler's formula</a>
+
+<LI> Appendices<UL>
+<LI> <a href="linincidence.html#1">Incidence relations in the 
+plane and in space </a>
+<li><a href="drg_txt.html">Degrees and radians</a>, by <A HREF="http://math.rice.edu/~hemphill">Boyd E. Hemphill</A>
+<li><a href="ruler.html">Making a "spherical straightedge"</a>, by <A HREF="http://math.rice.edu/~hemphill">Boyd E. Hemphill</A>
+</UL>
+
+
+</UL>
+<hr size=4>
+<img align = left src = "icons/earthicon.gif"><h2><a
+name="intro">Introduction</a></h2>
+
+We are interested here in the geometry of an ordinary sphere.  In
+plane geometry we study points, lines, triangles, polygons, etc.  On
+the sphere we have points, but there are no straight lines --- at
+least not in the usual sense.  However, straight
+lines in the plane are characterized by the fact that they are the
+shortest paths between points.  The curves on the sphere with the same
+property are the great circles.  Therefore it is natural to use great
+circles as replacements for lines.  
+Then we can talk about triangles and polygons and other geometrical
+objects.  In these notes we will do this, and at the same time we will
+continuously 
+look back to the plane to compare the spherical results with the
+planar results.
+
+<p>We will study the incidence relations between great circles, the
+notion of angle on the sphere, and the areas of
+certain fundamental regions on the sphere, culminating with the area
+of spherical triangles.
+Our ultimate goal is  two very nice results.  First we will
+prove Girard's Theorem, which gives a formula for the sum of the
+angles in a spherical triangle.  Then we will use Girard's Theorem to
+prove Euler's Theorem that says that in any convex, three dimensional
+polyhedron we have <strong><var>V&nbsp;-&nbsp;E&nbsp;+&nbsp;F&nbsp;=&nbsp; 2</var></strong>, where
+<strong><var>V</var></strong> <img src="space.gif" width=5> is the
+number of vertices, <strong><var>E</var></strong> <img src="space.gif"
+width=5> is the number of edges, and <strong><var>F</var></strong>
+<img src="space.gif" width=5> is the number of faces.  <p><hr>
+
+
+<TABLE BORDER=0 CELLSPACING=0 >
+<TR>
+<TD ALIGN=LEFT WIDTH="60"><a href="sphere.html"><IMG SRC="icons/fwd.gif" ></a></TD>
+
+<TD>The next section
+contains a 
+discussion of the basic properties of the sphere.</TD>
+</TR>
+</TABLE>
+
+
+<hr>
+<font size = -1>
+The orthographic projection of the earth at the beginning of this
+page, and the earth icon used throughout these pages were produced
+with the program <a
+href="http://www.cs.colorado.edu/~tuna/xearth/index.html"><b>xearth</b></a>,
+written by <a href="http://www.cs.colorado.edu/~tuna/"> Kirk
+Johnson</a> of the University of Colorado.</font>
+
+
+<hr>
+
+
+<address><a href="http://math.rice.edu/~polking/">John C. Polking &lt;polking@rice.edu&gt;</a></address>
+
+<!-- hhmts start -->
+Last modified: Fri Jan 28 15:24:14 CST 2000
+<!-- hhmts end -->
+
+
+</BODY></HTML>

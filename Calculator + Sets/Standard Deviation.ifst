@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PopMean4</key>
+	<string>(SampleDevX1+SampleDevX2+SampleDevX3+SampleDevX4)/(4)</string>
+	<key>PopMean5</key>
+	<string>(SampleDevX1+SampleDevX2+SampleDevX3+SampleDevX4+SampleDevX5)/(5)</string>
+	<key>PopMean6</key>
+	<string>(SampleDevX1+SampleDevX2+SampleDevX3+SampleDevX4+SampleDevX5+SampleDevX6)/(6)</string>
+	<key>SampleDevX1</key>
+	<string>8</string>
+	<key>SampleDevX2</key>
+	<string>13</string>
+	<key>SampleDevX3</key>
+	<string>5</string>
+	<key>SampleDevX4</key>
+	<string>10</string>
+	<key>SampleDevX5</key>
+	<string></string>
+	<key>SampleDevX6</key>
+	<string></string>
+	<key>SampleDeviation4</key>
+	<string>sqrt(SampleVariance4)</string>
+	<key>SampleDeviation5</key>
+	<string>sqrt(SampleVariance5)</string>
+	<key>SampleDeviation6</key>
+	<string>sqrt(SampleVariance6)</string>
+	<key>SampleMean4</key>
+	<string>(SampleDevX1+SampleDevX2+SampleDevX3+SampleDevX4)/(4)</string>
+	<key>SampleMean5</key>
+	<string>(SampleDevX1+SampleDevX2+SampleDevX3+SampleDevX4+SampleDevX5)/(5)</string>
+	<key>SampleMean6</key>
+	<string>(SampleDevX1+SampleDevX2+SampleDevX3+SampleDevX4+SampleDevX5+SampleDevX6)/(6)</string>
+	<key>SampleVariance4</key>
+	<string>((SampleDevX1-SampleMean4)^2+(SampleDevX2-SampleMean4)^2+(SampleDevX3-SampleMean4)^2+(SampleDevX4-SampleMean4)^2)/(4-1)</string>
+	<key>SampleVariance5</key>
+	<string>((SampleDevX1-SampleMean5)^2+(SampleDevX2-SampleMean5)^2+(SampleDevX3-SampleMean5)^2+(SampleDevX4-SampleMean5)^2+(SampleDevX5-SampleMean5)^2)/(5-1)</string>
+	<key>SampleVariance6</key>
+	<string>((SampleDevX1-SampleMean6)^2+(SampleDevX2-SampleMean6)^2+(SampleDevX3-SampleMean6)^2+(SampleDevX4-SampleMean6)^2+(SampleDevX5-SampleMean6)^2+(SampleDevX6-SampleMean6)^2)/(6-1)</string>
+	<key>StandardDeviation4</key>
+	<string>sqrt(Variance4)</string>
+	<key>StandardDeviation5</key>
+	<string>sqrt(Variance5)</string>
+	<key>StandardDeviation6</key>
+	<string>sqrt(Variance6)</string>
+	<key>Variance4</key>
+	<string>((SampleDevX1-PopMean4)^2+(SampleDevX2-PopMean4)^2+(SampleDevX3-PopMean4)^2+(SampleDevX4-PopMean4)^2)/(4)</string>
+	<key>Variance5</key>
+	<string>((SampleDevX1-PopMean5)^2+(SampleDevX2-PopMean5)^2+(SampleDevX3-PopMean5)^2+(SampleDevX4-PopMean5)^2+(SampleDevX5-PopMean5)^2)/(5)</string>
+	<key>Variance6</key>
+	<string>((SampleDevX1-PopMean6)^2+(SampleDevX2-PopMean6)^2+(SampleDevX3-PopMean6)^2+(SampleDevX4-PopMean6)^2+(SampleDevX5-PopMean6)^2+(SampleDevX6-PopMean6)^2)/(6)</string>
+</dict>
+</plist>
