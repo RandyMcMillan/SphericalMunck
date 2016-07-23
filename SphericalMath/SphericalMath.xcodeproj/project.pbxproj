@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4835F6EE1D43166900514CC7 /* CONSTANTS.c in Sources */ = {isa = PBXBuildFile; fileRef = 4835F6EC1D43166900514CC7 /* CONSTANTS.c */; };
 		484D63E01719EE3200216375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 484D63DF1719EE3200216375 /* Foundation.framework */; };
 		484D63E31719EE3200216375 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 484D63E21719EE3200216375 /* main.m */; };
 		484D63E71719EE3200216375 /* SphericalMath.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 484D63E61719EE3200216375 /* SphericalMath.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4835F6EC1D43166900514CC7 /* CONSTANTS.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = CONSTANTS.c; sourceTree = "<group>"; };
+		4835F6ED1D43166900514CC7 /* CONSTANTS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CONSTANTS.h; sourceTree = "<group>"; };
 		484D63DC1719EE3200216375 /* SphericalMath */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SphericalMath; sourceTree = BUILT_PRODUCTS_DIR; };
 		484D63DF1719EE3200216375 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		484D63E21719EE3200216375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -76,6 +79,8 @@
 				484D63E21719EE3200216375 /* main.m */,
 				484D63E61719EE3200216375 /* SphericalMath.1 */,
 				484D63E41719EE3200216375 /* Supporting Files */,
+				4835F6EC1D43166900514CC7 /* CONSTANTS.c */,
+				4835F6ED1D43166900514CC7 /* CONSTANTS.h */,
 			);
 			path = SphericalMath;
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				484D63E31719EE3200216375 /* main.m in Sources */,
+				4835F6EE1D43166900514CC7 /* CONSTANTS.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
