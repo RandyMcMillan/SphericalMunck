@@ -38,21 +38,26 @@
 #define THIRD_RADIAN R/3
 #define HALF_RADIAN R/2
 
+#define DOUBLE_PI_DIVBY_RADIAN_FOURTHPOW (2*PI)/(R*R*R*R)
+#define DOUBLE_PI_DIVBY_RADIAN_CUBED (2*PI)/(R*R*R)
+#define DOUBLE_PI_DIVBY_RADIAN_SQUARED (2*PI)/(R*R)
 #define DOUBLE_PI_DIVBY_RADIAN (2*PI)/R
-/* DOUBLE_PI */
-#define CIRCUMFERENCE_SPHERE 2*PI*R
 
+/* DOUBLE_PI here */
+
+#define CIRCUMFERENCE_SPHERE 2*PI*R
+#define CIRC CIRCUMFERENCE_SPHERE
 #define AREA_CIRCLE R*R*PI
 #define AC AREA_CIRCLE
 
 #define SURFACE_AREA_SPHERE = R*R*PI*4
-#define SAS = SURFACE_AREA_SPHERE
+#define SAS SURFACE_AREA_SPHERE
 
 #define VOLUME_SPHERE (4*PI*R*R*R)/3
 #define VS VOLUME_SPHERE
 
 double inverseRadius(double radius);
-double doublePi(double radius);
+double doublePi(void);
 double circumferenceSphere(double radius);
 double areaCircle(double radius);
 double surfaceAreaSphere (double radius);

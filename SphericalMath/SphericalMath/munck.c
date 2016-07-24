@@ -12,7 +12,7 @@
 double doublePiDivByRadius(double radius){
     return (2*PI)/radius;
 }
-double doublePi(double radius){
+double doublePi(void){
     return 2*PI;
 }
 double circumferenceSphere(double radius){
