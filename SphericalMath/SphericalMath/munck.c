@@ -11,7 +11,6 @@
 double areaCircle(double radius){
     return (radius * radius) * PI;;
 }
-
 double surfaceAreaSphere (double radius){
     return areaCircle(radius)*4;
 }
