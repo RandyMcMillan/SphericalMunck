@@ -34,7 +34,6 @@
 #define THIRD_RADIAN R/3
 #define HALF_RADIAN R/2
 
-
 #define AREA_CIRCLE R*R*PI
 #define AC AREA_CIRCLE
 
@@ -43,7 +42,6 @@
 
 #define VOLUME_SPHERE (4*PI*R*R*R)/3
 #define VS VOLUME_SPHERE
-
 
 double areaCircle(double radius);
 double surfaceAreaSphere (double radius);
