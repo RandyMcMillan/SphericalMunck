@@ -47,6 +47,9 @@
 #define VOLUME_SPHERE (4*PI*R*R*R)/3
 #define VS VOLUME_SPHERE
 
+double inverseRadius(double radius);
+double diameterSphere(double radius);
+double circumferenceSphere(double radius);
 double areaCircle(double radius);
 double surfaceAreaSphere (double radius);
 double volumeSphere(double radius);

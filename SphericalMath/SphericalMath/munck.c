@@ -8,6 +8,16 @@
 
 #include "munck.h"
 
+
+double inverseRadius(double radius){
+    return (2*PI)/radius;
+}
+double diameterSphere(double radius){
+    return 2*PI;
+}
+double circumferenceSphere(double radius){
+    return 2*PI*radius;
+}
 double areaCircle(double radius){
     return (radius * radius) * PI;;
 }
