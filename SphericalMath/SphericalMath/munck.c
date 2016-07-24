@@ -9,7 +9,7 @@
 #include "munck.h"
 
 
-double inverseRadius(double radius){
+double doublePiDivByRadius(double radius){
     return (2*PI)/radius;
 }
 double diameterSphere(double radius){
