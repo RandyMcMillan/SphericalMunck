@@ -1,13 +1,13 @@
 /*
- * CONSTANTS.h
+ * MUNCK_H
  * SphericalMath
  *
  * Created by randymcmillan on 7/22/16.
  * Copyright © 2016 Randy McMillan. All rights reserved.
  */
 
-#ifndef CONSTANTS_h
-#define CONSTANTS_h
+#ifndef MUNCK_H
+#define MUNCK_H
 
 #include <stdio.h>
 #include <math.h>
@@ -25,13 +25,19 @@
 #define INVERSE_PI 1/M_PI
 #define INVERSE_DBL_PI 1/(2*M_PI)
 
-#define RADIAN 360/DOUBLE_PI
+#define THREE_HUNDRED_SIXTY 360
+#define RADIAN THREE_HUNDRED_SIXTY/DOUBLE_PI
 
 #define R RADIAN
 
 #define THIRD_RADIAN R/3
 #define HALF_RADIAN R/2
-#define THREE_HUNDRED_SIXTY 360
+
+
+#define AREA_CIRCLE R*R*PI
+#define AC AREA_CIRCLE
+#define SURFACE_AREA_SPHERE = R*R*PI*4
+#define SAS = SURFACE_AREA_SPHERE
 
 
 
@@ -46,6 +52,4 @@
 
 
 
-
-
-#endif/* CONSTANTS_h */
+#endif/* MUNCK_H */
