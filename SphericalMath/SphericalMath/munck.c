@@ -12,7 +12,7 @@ double areaCircle(double radius){
     return (radius * radius) * PI;;
 }
 double surfaceAreaSphere (double radius){
-    return areaCircle(radius)*4;
+    return areaCircle(radius) * 4;
 }
 double volumeSphere(double radius){
     return ( areaCircle(radius) * 4 * radius)/3;;
