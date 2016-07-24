@@ -52,7 +52,7 @@
 #define VS VOLUME_SPHERE
 
 double inverseRadius(double radius);
-double diameterSphere(double radius);
+double doublePi(double radius);
 double circumferenceSphere(double radius);
 double areaCircle(double radius);
 double surfaceAreaSphere (double radius);
