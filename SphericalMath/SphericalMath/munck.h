@@ -12,6 +12,7 @@
 #include <stdio.h>
 #include <math.h>
 
+#define QUADRUPLE_PI 4 * M_PI
 
 #define PI_SQUARED  M_PI * M_PI
 
@@ -36,14 +37,17 @@
 
 #define AREA_CIRCLE R*R*PI
 #define AC AREA_CIRCLE
+
 #define SURFACE_AREA_SPHERE = R*R*PI*4
 #define SAS = SURFACE_AREA_SPHERE
 
+#define VOLUME_SPHERE (4*PI*R*R*R)/3
+#define VS VOLUME_SPHERE
 
 
-
-
-
+double areaCircle(double radius);
+double surfaceAreaSphere (double radius);
+double volumeSphere(double radius);
 
 
 
