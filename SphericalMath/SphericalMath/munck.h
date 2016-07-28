@@ -15,6 +15,8 @@
 /* Great Pyrimids Lat/Long */
 /* 29° 58′ 45.03″ N, 31° 8′ 3.69″ E */
 
+
+
 #define QUADRUPLE_PI 4 * M_PI
 
 #define PI_SQUARED  M_PI * M_PI

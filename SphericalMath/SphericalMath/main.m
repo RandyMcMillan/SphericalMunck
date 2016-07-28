@@ -15,7 +15,15 @@
 int main(int argc, const char *argv[])
 {
 	
-    @autoreleasepool {}
+    @autoreleasepool {
+    
+    
+        
+        printf("%f\n",circumferenceSphere(R));
+        printf("%f\n",areaCircle(R));
+        printf("%f\n",surfaceAreaSphere(R));
+        printf("%f\n",volumeSphere(R));
+    }
     
 	return 0;
 }
