@@ -34,6 +34,7 @@
 		484D63E21719EE3200216375 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		484D63E51719EE3200216375 /* SphericalMath-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SphericalMath-Prefix.pch"; sourceTree = "<group>"; };
 		484D63E61719EE3200216375 /* SphericalMath.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SphericalMath.1; sourceTree = "<group>"; };
+		489C88F51D4AB4DE00275D7D /* src.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = src.xcodeproj; path = proj.4/src/src.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +52,7 @@
 		484D63D31719EE3200216375 = {
 			isa = PBXGroup;
 			children = (
+				489C88F51D4AB4DE00275D7D /* src.xcodeproj */,
 				484D63E11719EE3200216375 /* SphericalMath */,
 				484D63DE1719EE3200216375 /* Frameworks */,
 				484D63DD1719EE3200216375 /* Products */,
@@ -93,6 +95,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		489C88F61D4AB4DE00275D7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +141,12 @@
 			mainGroup = 484D63D31719EE3200216375;
 			productRefGroup = 484D63DD1719EE3200216375 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 489C88F61D4AB4DE00275D7D /* Products */;
+					ProjectRef = 489C88F51D4AB4DE00275D7D /* src.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				484D63DB1719EE3200216375 /* SphericalMath */,
