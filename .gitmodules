@@ -1,0 +1,3 @@
+[submodule "SphericalMath/proj.4"]
+	path = SphericalMath/proj.4
+	url = git@github.com:OSGeo/proj.4.git
