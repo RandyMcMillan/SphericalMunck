@@ -29,6 +29,11 @@ int main(int argc, const char *argv[])
         printf("%f\n",hyperSphereSeries(1,1,8));
         printf("%f\n",hyperSphereSeries(1,1,9));
         printf("%f\n",hyperSphereSeries(1,1,10));
+        printf("%f\n",hyperSphereSeries(1,2,10));
+        printf("%f\n",hyperSphereSeries(1,3,10));
+        printf("%f\n",hyperSphereSeries(1,4,10));
+        printf("%f\n",hyperSphereSeries(1,5,10));
+        printf("%f\n",hyperSphereSeries(1,6,10));
     
     }
     
