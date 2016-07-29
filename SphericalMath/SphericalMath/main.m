@@ -18,7 +18,8 @@ int main(int argc, const char *argv[])
         printf("%f\n",areaCircle(R));
         printf("%f\n",surfaceAreaSphere(R));
         printf("%f\n",volumeSphere(R));
-        printf("%f\n",hyperSphereSeries(8,R,1));
+        printf("%f\n",hyperSphereSeries(1,R,1));
+        printf("%f\n",hyperSphereSeries(1,1,1));
     
     
     }
