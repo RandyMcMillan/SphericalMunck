@@ -25,11 +25,6 @@
  
  */
 
-
-
-
-
-
 double inverseRadius(double radius){
     return 1/radius;
 }
@@ -50,4 +45,29 @@ double surfaceAreaSphere (double radius){
 }
 double volumeSphere(double radius){
     return ( areaCircle(radius) * 4 * radius)/3;
+}
+double hyperSphereSeries(double radius, int n){
+
+    double sum=0;
+    int i;
+    for (i=0;n<i;i++){
+        /*
+         sum =  sum + (pi*radius^n)/n
+         */
+        sum += ((PI*pow(radius,n))/n);
+
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    return 8*sum;
 }
