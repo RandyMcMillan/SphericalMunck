@@ -23,6 +23,12 @@ int main(int argc, const char *argv[])
         printf("%f\n",areaCircle(R));
         printf("%f\n",surfaceAreaSphere(R));
         printf("%f\n",volumeSphere(R));
+        printf("%f\n",hyperSphereSeries(R,1));
+        printf("%f\n",hyperSphereSeries(R,2));
+        printf("%f\n",hyperSphereSeries(R,3));
+        printf("%f\n",hyperSphereSeries(R,4));
+    
+    
     }
     
 	return 0;
