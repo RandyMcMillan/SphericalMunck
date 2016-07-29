@@ -50,11 +50,11 @@ double hyperSphereSeries(double radius, int n){
 
     double sum=0;
     int i;
-    for (i=0;n<i;i++){
+    for (i=0;i<n;i++){
         /*
          sum =  sum + (pi*radius^n)/n
          */
-        sum += ((PI*pow(radius,n))/n);
+        sum += ((PI*pow(radius,(double)n))/n);
     }
 
     return 8*sum;
