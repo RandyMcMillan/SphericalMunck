@@ -12,13 +12,23 @@
 /*
  
  double inverseRadius(double radius);
- double doublePi(void);
- double circumferenceSphere(double radius);
+
+ double doublePi(void); 2 pi r^0
+
+ double circumferenceSphere(double radius); 2 pi r^1
+ 
  double areaCircle(double radius);
+ 
  double surfaceAreaSphere (double radius);
+ 
  double volumeSphere(double radius);
  
  */
+
+
+
+
+
 
 double inverseRadius(double radius){
     return 1/radius;
