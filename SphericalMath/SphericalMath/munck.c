@@ -35,7 +35,6 @@ double hyperSphereSeries(double quotient, double radius, int n){
         /* sum =  sum + (pi*radius^n)/n */
         sum += ((PI*pow(radius,(double)n))/n);
         printf("sum = %f i = %d n = %d\n",sum,i,n);
-        
     }
     return quotient*sum;
 }
