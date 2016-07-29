@@ -16,8 +16,6 @@ int main(int argc, const char *argv[])
 {
 	
     @autoreleasepool {
-    
-    
         
         printf("%f\n",circumferenceSphere(R));
         printf("%f\n",areaCircle(R));
