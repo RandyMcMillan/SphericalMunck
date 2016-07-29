@@ -63,11 +63,6 @@ double areaCircle(double radius);
 double surfaceAreaSphere (double radius);
 double volumeSphere(double radius);
 
-double hyperSphereSeries(double radius, int n);
-
-
-
-
-
+double hyperSphereSeries(double quotient, double radius, int n);
 
 #endif/* MUNCK_H */
