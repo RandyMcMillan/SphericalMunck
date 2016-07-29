@@ -22,7 +22,13 @@ int main(int argc, const char *argv[])
         printf("%f\n",hyperSphereSeries(1,1,1));
         printf("%f\n",hyperSphereSeries(1,1,2));
         printf("%f\n",hyperSphereSeries(1,1,3));
-    
+        printf("%f\n",hyperSphereSeries(1,1,4));
+        printf("%f\n",hyperSphereSeries(1,1,5));
+        printf("%f\n",hyperSphereSeries(1,1,6));
+        printf("%f\n",hyperSphereSeries(1,1,7));
+        printf("%f\n",hyperSphereSeries(1,1,8));
+        printf("%f\n",hyperSphereSeries(1,1,9));
+        printf("%f\n",hyperSphereSeries(1,1,10));
     
     }
     
