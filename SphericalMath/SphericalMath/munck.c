@@ -35,5 +35,5 @@ double hyperSphereSeries(double quotient, double radius, int n){
         /* sum =  sum + (pi*radius^n)/n */
         sum += ((PI*pow(radius,(double)n))/n);
     }
-    return 8*sum;
+    return quotient*sum;
 }
