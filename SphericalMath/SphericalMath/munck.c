@@ -1,31 +1,11 @@
-//
-//  CONSTANTS.c
-//  SphericalMath
-//
-//  Created by randymcmillan on 7/22/16.
-//  Copyright © 2016 Randy McMillan. All rights reserved.
-//
+/*
+  CONSTANTS.c
+  SphericalMath
+  Created by randymcmillan on 7/22/16.
+  Copyright © 2016 Randy McMillan. All rights reserved.
+*/
 
 #include "munck.h"
-
-
-/*
- 
- double inverseRadius(double radius);
-
- double doublePi(void); 2 pi r^0
-
- double circumferenceSphere(double radius); 2 pi r^1
- 
- double areaCircle(double radius);
- 
- double surfaceAreaSphere (double radius);
- 
- double volumeSphere(double radius);
- 
- double hyperSphereSeries(double radius, int n);
- 
- */
 
 double inverseRadius(double radius){
     return 1/radius;
