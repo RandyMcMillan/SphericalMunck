@@ -23,6 +23,8 @@
  
  double volumeSphere(double radius);
  
+ double hyperSphereSeries(double radius, int n);
+ 
  */
 
 double inverseRadius(double radius){
